@@ -1,3 +1,11 @@
+#include <iostream>
+#include <cstdint>
+
+#include <vector>
+#include <sstream>
+using namespace std;
+
+
 class DequeSized {
 	size_t _capacity, _size;
 	size_t _head, _tail;
